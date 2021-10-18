@@ -16,7 +16,7 @@ package 树;
 public class 剑指Offer55_1二叉树的深度 {
     private int ans = 0;
 
-    public int maxDepthJ(TreeNode root) {
+    public int maxDepthJ(TreeNode root) {       //尽可能深的搜索树，在回溯时完成深度值的统计
         if(root == null) return 0;
         return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
     }
