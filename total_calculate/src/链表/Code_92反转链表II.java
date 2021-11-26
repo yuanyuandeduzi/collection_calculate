@@ -1,22 +1,5 @@
 package 链表;
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-}
-
 
 /*
 *       题目：给你单链表的头指针 head 和两个整数left 和 right ，其中left <= right。
